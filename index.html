@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simply Image Database</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<style type="text/css">
+			.jumbotron{
+				padding: 50px 25px;
+				margin-top: 50px;
+			}
+			.bg-grey {
+			    background-color: #333;
+			    color:#9d9d9d;
+			    padding: 10px 5px 10px 35px;
+			    vertical-align: -35px ;
+		    	border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+			}
+			.glyphicon{
+				font-size: 35px;
+				
+				padding-left: 15px;
+			}
+
+			.form{
+				padding: 35px;
+				background: #eee;
+				border: 2px solid #333;
+				border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+			}
+
+			.form-group{
+				padding-bottom: 15px;
+
+			}
+			.form-control:focus {
+				 border-color: #bfbfbf;
+			}
+			.form-control{
+				height: 50px;
+			    margin: 0;
+			    padding: 0 20px;
+			    vertical-align: middle;
+			    background: #f8f8f8;
+			    border: 3px solid #ddd;
+			}
+			.btn{
+				width: 100%;
+				height: 50px;
+				background-color: #333;
+			    color:#9d9d9d;
+
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class= "navbar navbar-inverse navbar-fixed-top" >
+				<div class="container-fluid">
+					<div class="navbar-header">
+					    <a class="navbar-brand" href="#">Image DB</a>
+					</div>
+				</div>
+			
+			</nav>
+		</header>
+		<div class="jumbotron text-center ">
+			<div class="row ">
+				<div class="col-md-6 col-md-offset-3">
+					<h2>Welcome to Image Database</h2>
+
+				</div>		
+			</div>
+		</div>	
+		<div class="row ">
+			<div class="col-md-4 col-md-offset-4">
+				<div class="bg-grey">
+					<h4 class="align-left">Enter Username And Password to Logon
+					<i class="glyphicon  glyphicon-log-in"></i></h4>
+				</div>	
+				<div>
+					<form class= "form" role="form">
+						    <div class="form-group">
+						      <label class="sr-only" for="username">Username:</label>
+						      <input type="text" class="form-control" id="username" placeholder="Enter Username">
+						    </div>
+						    <div class="form-group">
+						      <label class="sr-only" for="pwd">Password:</label>
+						      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+						    </div>
+ 							<button type="submit" class="btn  btn-default">Submit</button>					
+ 					</form>	
+				</div>		
+			</div>	
+		</div>	
+		
+	
+
+	</body>
+</html>
